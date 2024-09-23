@@ -5,7 +5,7 @@ public class Employee {
     private final int id;
     private final String fullName;
     private int department;
-    private int salary;
+    private double salary;
 
     public Employee( String fullName, int department, int salary) {
         id = idGererator++;
@@ -34,7 +34,7 @@ public class Employee {
         return department;
     }
 
-    public int getSalary() {
+    public double getSalary() {
         return salary;
     }
 

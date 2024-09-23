@@ -34,8 +34,8 @@ public class Main {
         }
     }
 
-    public static int calculateSummaOfSalaries () {
-        int summa = 0;
+    public static double calculateSummaOfSalaries () {
+        double summa = 0;
         for (Employee employee : EMPLOYEES) {
             summa += employee.getSalary();
         }
